@@ -1,0 +1,1 @@
+(()=>{"use strict";const t=document.querySelector(".button-click"),e=document.querySelector(".counter-click"),c=new class{constructor(t){this.counter=t}getCounter(){return this.counter}increment(){this.counter++}}(0);t.addEventListener("click",(()=>{c.increment(),e.textContent=c.getCounter()}))})();
